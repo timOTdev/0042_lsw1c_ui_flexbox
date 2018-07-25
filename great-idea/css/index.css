@@ -214,6 +214,10 @@ p {
 /* PRODUCTS PAGE */
 /* *//* *//* *//* *//* *//* */
 
+.products-header {
+  margin-top: 70px;
+}
+
 .products-specialties {
   display: flex;
   flex-wrap: wrap;
