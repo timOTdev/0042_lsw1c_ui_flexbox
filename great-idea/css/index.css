@@ -118,6 +118,20 @@ p {
   font-size: 100px;
 }
 
+.header__button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.header__button:hover {
+  background: black;
+  color: white;
+}
 /* content-top */
 .content-top {
   margin: 20px auto;
