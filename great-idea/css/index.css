@@ -63,7 +63,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+/* *//* *//* *//* *//* *//* */
 /* Your code starts here! */
+/* *//* *//* *//* *//* *//* */
+
 hr {
   margin: 30px 0;
   height: 3px;
@@ -103,12 +106,12 @@ p {
 /* header */
 .header {
   display: flex;
-
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   margin-top: 70px;
 }
+
 .header-left,
 .header-right {
   margin: 20px;
@@ -118,7 +121,8 @@ p {
   font-size: 100px;
 }
 
-.header__button {
+.header__button,
+.services__button {
   background: white;
   vertical-align: top;
   margin-top: 6px;
@@ -128,10 +132,16 @@ p {
   cursor: pointer;
 }
 
-.header__button:hover {
+.header__button:hover,
+.services__button:hover {
   background: black;
   color: white;
 }
+
+.services-header__text {
+  margin: 20px 20px;
+}
+
 /* content-top */
 .content-top {
   margin: 20px auto;
@@ -163,4 +173,37 @@ p {
 .footer {
   text-align: center;
   margin: 50px 0;
+}
+
+/* *//* *//* *//* *//* *//* */
+/* SERVICES PAGE */
+/* *//* *//* *//* *//* *//* */
+
+.services-header {
+  margin-top: 70px;
+}
+
+.services-specialties {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services-specialties > * {
+  flex-basis: 47%;
+  border: 2px solid black;
+  background: #F4F3F4;
+  margin: 10px;
+  padding: 20px;
+}
+
+.services-facts {
+  display: flex;
+}
+
+.services-facts_text ul > * {
+  font-family: 'Amatic SC', cursive;
+  line-height: 2rem;
+  list-style-type: square;
+  list-style-position: inside;
 }
