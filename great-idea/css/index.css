@@ -122,7 +122,8 @@ p {
 }
 
 .header__button,
-.services__button {
+.services__button,
+.products__button {
   background: white;
   vertical-align: top;
   margin-top: 6px;
@@ -133,7 +134,8 @@ p {
 }
 
 .header__button:hover,
-.services__button:hover {
+.services__button:hover,
+.products__button:hover {
   background: black;
   color: white;
 }
@@ -206,4 +208,51 @@ p {
   line-height: 2rem;
   list-style-type: square;
   list-style-position: inside;
+}
+
+/* *//* *//* *//* *//* *//* */
+/* PRODUCTS PAGE */
+/* *//* *//* *//* *//* *//* */
+
+.products-specialties {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.products-specialties > * {
+  flex-basis: 47%;
+  border: 2px solid black;
+  background: #F4F3F4;
+  margin: 10px;
+  padding: 20px;
+}
+
+.products-specialties__web {
+  background-image: linear-gradient(90deg, #006847 30%, #FFF 70%, #CE1126 30%);
+}
+
+.products-specialties__web button {
+  background-image: linear-gradient(#97cc76, #8bcc62);
+}
+
+.products-specialties__ios {
+  background-image: radial-gradient(at bottom right, green, blue, purple);
+}
+
+.products-specialties__ios:hover {
+  background-image: radial-gradient(farthest-corner, purple, green, blue);
+}
+
+.products-specialties__ios button {
+  background-image: linear-gradient(#fce374, #fcdf5b);
+}
+
+
+.products-specialties__android {
+  background-image: radial-gradient(at top right, red, yellow);
+}
+
+.products-specialties__android:hover {
+  background-image: radial-gradient(farthest-side, yellow, red);
 }
