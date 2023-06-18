@@ -1,4 +1,6 @@
-# User Interface Project II: Great Idea Web Page With Flexbox
+# 0042_lsw1c_ui_flexbox
+
+## User Interface Project II: Great Idea Web Page With Flexbox
 
 Now that you have experienced building a layout using `inline-block`.  Lets revisit the same HTML structure and refactor our first page with flexbox.  If you didn't finish yesterday's assignment, just start from scratch.
 
